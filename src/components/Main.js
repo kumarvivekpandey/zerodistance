@@ -1,7 +1,31 @@
-import React from 'react'
+
+import React, { useEffect, useState } from "react";
 
 export default function Main() {
+const purple = "yellow";
+const [bg, setBg] = useState(purple);
+ const bgChange = () =>{
+    let newBg = "red";
+    setBg(newBg)
+    // console.log("clicked");
+ };
+
+ const bgback = () =>{
+    
+    setBg(purple)
+    // console.log("clicked");
+ };
+
     return (
+
+
+
+
+
+
+
+
+
         <div>
  <br/>
 
@@ -27,7 +51,8 @@ export default function Main() {
 </div>
 
 
-  
+        
+       
                
 <div class="conatiner flcmain">
                      <div class="row">
@@ -43,9 +68,18 @@ export default function Main() {
                 
                 <img class="mainmg" src='https://5.imimg.com/data5/SELLER/Default/2020/10/CF/UR/NC/97139128/purple-flying-dragon-airplane-500x500.jpg' />
                  <div class="d-flex flex-column">
+
+
+
+
                      <div class=" d-flex flex-row">
                  <h5 class="mainh ">Pratt & Whitney </h5>
-                 <img id='heart' style={{width:'30px'}} src="https://img.icons8.com/windows/32/000000/like--v2.png"/></div>
+
+                  <i id='heart' style={{width:'150px'}} onClick={bgChange} onDoubleClick={bgback} style={{ color:bg}} class="fa fa-heart"></i>
+                 </div>
+                 
+
+
                  <div class=" d-flex flex-row">
                  <p class="mainp">Aerospace company</p>
                  <img id='note' style={{width:'20px'}} src="https://img.icons8.com/ios/50/000000/note.png"/>
@@ -67,7 +101,7 @@ export default function Main() {
                  <div class="d-flex flex-column">
                      <div class=" d-flex flex-row">
                  <h5 class="mainh ">Pratt & Whitney </h5>
-                 <img id='heart' style={{width:'30px'}} src="https://img.icons8.com/windows/32/000000/like--v2.png"/></div>
+                 <i id='heart' style={{width:'150px'}} onClick={bgChange} onDoubleClick={bgback} style={{ color:bg}} class="fa fa-heart"></i></div>
                  <div class=" d-flex flex-row">
                  <p class="mainp">Aerospace company</p>
                  <img id='note' style={{width:'20px'}} src="https://img.icons8.com/ios/50/000000/note.png"/>
@@ -89,7 +123,7 @@ export default function Main() {
                  <div class="d-flex flex-column">
                      <div class=" d-flex flex-row">
                  <h5 class="mainh ">Pratt & Whitney </h5>
-                 <img id='heart' style={{width:'30px'}} src="https://img.icons8.com/windows/32/000000/like--v2.png"/></div>
+                 <i id='heart' style={{width:'150px'}} onClick={bgChange} onDoubleClick={bgback} style={{ color:bg}} class="fa fa-heart"></i></div>
                  <div class=" d-flex flex-row">
                  <p class="mainp">Aerospace company</p>
                  <img id='note' style={{width:'20px'}} src="https://img.icons8.com/ios/50/000000/note.png"/>
@@ -116,7 +150,7 @@ export default function Main() {
                  <div class="d-flex flex-column">
                      <div class=" d-flex flex-row">
                  <h5 class="mainh ">Pratt & Whitney </h5>
-                 <img id='heart' style={{width:'30px'}} src="https://img.icons8.com/windows/32/000000/like--v2.png"/></div>
+                 <i id='heart' style={{width:'150px'}} onClick={bgChange} onDoubleClick={bgback} style={{ color:bg}} class="fa fa-heart"></i></div>
                  <div class=" d-flex flex-row">
                  <p class="mainp">Aerospace company</p>
                  <img id='note' style={{width:'20px'}} src="https://img.icons8.com/ios/50/000000/note.png"/>
@@ -138,7 +172,7 @@ export default function Main() {
                  <div class="d-flex flex-column">
                      <div class=" d-flex flex-row">
                  <h5 class="mainh ">Pratt & Whitney </h5>
-                 <img id='heart' style={{width:'30px'}} src="https://img.icons8.com/windows/32/000000/like--v2.png"/></div>
+                 <i id='heart' style={{width:'150px'}} onClick={bgChange} onDoubleClick={bgback} style={{ color:bg}} class="fa fa-heart"></i></div>
                  <div class=" d-flex flex-row">
                  <p class="mainp">Aerospace company</p>
                  <img id='note' style={{width:'20px'}} src="https://img.icons8.com/ios/50/000000/note.png"/>
@@ -152,7 +186,8 @@ export default function Main() {
 </div>
             </div>
            </div>
-           <div id='hg' class="container ">
+           
+          <div id='hg' class="container ">
             <div class="row ">
                 <div class="col-md-12  d-flex flex-row">
                 
@@ -160,7 +195,7 @@ export default function Main() {
                  <div class="d-flex flex-column">
                      <div class=" d-flex flex-row">
                  <h5 class="mainh ">Pratt & Whitney </h5>
-                 <img id='heart' style={{width:'30px'}} src="https://img.icons8.com/windows/32/000000/like--v2.png"/></div>
+                 <i id='heart' style={{width:'150px'}} onClick={bgChange} onDoubleClick={bgback} style={{ color:bg}} class="fa fa-heart"></i></div>
                  <div class=" d-flex flex-row">
                  <p class="mainp">Aerospace company</p>
                  <img id='note' style={{width:'20px'}} src="https://img.icons8.com/ios/50/000000/note.png"/>
@@ -173,7 +208,7 @@ export default function Main() {
                
 </div>
             </div>
-           </div>
+            </div>
 </div>
                                </div>
                                </div>
