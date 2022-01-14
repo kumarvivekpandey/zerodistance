@@ -31,8 +31,32 @@ export default function Navbar() {
         </li>
        
       </ul>
-      
+       <div class="form-inline my-2 my-lg-0 navgt">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0"  id='go'>
+        <li class="nav-item" >
+       <center> <i  style={{color: "#000"}} class="fa fa-envelope" ></i></center>
+
+          <a  class="nav-link active"  aria-current="page" href="#">Messages </a>
+        </li>
+        <li class="nav-item">
+       <center> <i  style={{color: "#000"}} class="fa fa-bell"></i></center>
+          <a     class="nav-link" href="#">Notifications</a>
+        </li>
+        <li class="nav-item">
+        <center> <i  style={{color: "#000"}} class="fa fa-bar-chart"></i></center>
+          <a   class="nav-link" href="#">Leader Board</a>
+        </li>
+        <li class="nav-item">
+       <center> <img style={{width: "30px"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClqxVXOq5xQWJNkEPeVlI8wzCeCWjRj9yXK59aDuh5to_51lPmLrMsMtspPsH5pXZf4k&usqp=CAU" /></center>
+          <a  style={{color: "#000"}} class="nav-link blacky" href="#">Sadeev</a>
+        </li>
+       
+
+      </ul> </div>
     </div>
+
+
+
    
   </div>
  
